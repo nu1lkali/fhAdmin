@@ -22,6 +22,14 @@
 - Python 3.7 或更高版本
 - `requests` 库（可以通过 `pip install requests` 安装）
 
+## 输出示例
+- 当前IP地址为：192.168.1.1
+- 当前MAC地址为：38:7A:3C:9C:CD:E0
+- 向 http://192.168.1.1/cgi-bin/telnetenable.cgi?telnetenable=1&key=387A3C9CCDE0 发送请求以开启Telnet服务
+- 管理员用户名: CMCCAdmin
+- 管理员密码: CMCCAdmin*n5Ks7Cb
+
+
 ## 安装步骤
 
 ### 安装依赖
@@ -30,3 +38,4 @@
 
 ```bash
 pip install requests
+
