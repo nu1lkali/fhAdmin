@@ -62,7 +62,7 @@ def start(ip=DEFAULT_IP, mac=DEFAULT_MAC, provider=0):
         response = requests.get(url)
         result = response.text
 
-        if "telnet" not in result:
+        if "telnet开启" not in result:
             print(f"未检测到开启Telnet成功，请手动开启尝试：\n {url}")
             return
 
